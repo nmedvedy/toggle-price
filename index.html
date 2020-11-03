@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link type="text/css" rel="stylesheet" href="sass/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  
+  <title>Toggle Price</title>
+
+</head>
+
+<body>
+  
+  <h3>Our Pricing</h3>
+
+  <div class="toggle-plan">  
+      <span  style="margin: 0.8em;">Annually</span>
+      <label class="switch">
+        <input type="checkbox" id="checbox" onclick="check()" ; />
+        <span class="slider round"></span>
+      </label>
+    <span style="margin: 0.8em;">Monthly</span>
+  </div>
+
+  <img class="back1" src="images/bg-top.svg">
+  <img class="back2" src="images/bg-bottom.svg">
+
+
+<div class="pricing">
+    <div class="card">
+      <h4>Basic</h4>
+      <h2 class="prices1">$19.99</h2>
+      <h2 class="prices2">&dollar;199.99</h2>
+      <ul class="list">
+        <li><p>500 GB Storage</p></li>
+        <li><p>Users Allowed</p></li>
+        <li><p>Send up to 3 GB</p></li>
+        <button class="toggleBtn">Learn More</button>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h4>Professional</h4>
+      <h2 class="prices1">$24.99</h2>
+      <h2 class="prices2">$249.99</h2>
+      <ul class="list">
+        <li><p>1 TB Storage</p></li>
+        <li><p>5 Users Allowed</p></li>
+        <li><p> Send up to 10 GB</p></li>
+        <button>Learn More</button>
+     </ul>
+    </div>
+
+    <div class="card">
+      <h4>Master</h4>
+      <h2 class="prices1">$39.99</h2>
+      <h2 class="prices2">$399.99</h2>
+      <ul class="list">
+        <li><p>2 TB Storage</p></li> 
+        <li><p>10 Users Allowed</p></li>
+        <li><p>Send up to 20 GB</p></li>
+        <button>Learn More</button>
+     </ul>
+   </div>
+
+</body>
+<script src="index.js"></script>
+</html>
